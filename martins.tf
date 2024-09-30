@@ -24,3 +24,7 @@ resource "aws_vpc" "test" {
     aws_vpc_ipam_pool_cidr.test
   ]
 }
+
+tags = {
+    Name = "main"
+  }
